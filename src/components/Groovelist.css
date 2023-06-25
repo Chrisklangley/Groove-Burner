@@ -1,0 +1,76 @@
+.grovelist-main {
+  /* margin-bottom: 900px;/  */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.groovelist-container {
+  width: 600px;
+  height: 200px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-right: 0px;
+  position: fixed;
+  top: 350px;
+  border-radius: 20px;
+  background-color: white;
+  overflow: auto;
+  padding: 0;
+}
+
+.groovelist-container h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.groovelist-container p {
+  font-size: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.groovelist-container button {
+  border-radius: 50%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  font-size: 30;
+  margin-left: 5px;
+  font-weight: bolder;
+}
+.groovelist-container button:hover {
+  background-color: #8c031a;
+}
+
+.groovelist-container .heading {
+  background-color: #a9927d;
+}
+
+.est-total {
+  /* display: inline-block; */
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+.total-submit {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.total-submit button {
+  border: solid rgb(0, 0, 0) 1px;
+  width: 80px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 20px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.total-submit button:hover {
+  background-color: #01886d;
+}
