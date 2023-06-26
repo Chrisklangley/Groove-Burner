@@ -15,16 +15,15 @@ const {
   getCover,
   getTrackList,
 } = require("./controller");
+
 const app = express();
+
 app.use(bodyParser.json({ limit: "60mb" }));
 app.use(bodyParser.urlencoded({ limit: "60mb", extended: true }));
-
 app.use(cors());
 app.use(express.json());
-app.use(bodyParser.json());
 
 app.get("/getTotal/:email", getTotal);
-app.get("/getCover/:email", getCover);
 app.get("/getCover/:email", getCover);
 app.get("/getTrackList/:email", getTrackList);
 
