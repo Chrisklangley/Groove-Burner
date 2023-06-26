@@ -21,7 +21,7 @@ function DisplayFinalCover() {
   let email = JSON.parse(authState).email;
   const getCoverPlusTitle = () => {
     axios
-      .get(`http://localhost:4838/getCover/${email}`)
+      .get(`http://localhost:4839/getCover/${email}`)
       .then((res) => {
         setCoverArt(res.data);
       })

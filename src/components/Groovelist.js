@@ -20,7 +20,7 @@ function Groovelist({ songs }) {
 
   const getTotal = () => {
     axios
-      .get(`http://localhost:4838/getTotal/${email}`)
+      .get(`http://localhost:4839/getTotal/${email}`)
       .then((res) => {
         setTotal(res.data.sum);
       })

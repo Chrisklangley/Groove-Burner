@@ -43,7 +43,7 @@ function Register() {
       email,
       password,
     };
-    const URL = "http://localhost:4838";
+    const URL = "http://localhost:4839";
 
     axios
       .post(triggerSignup ? `${URL}/login` : `${URL}/register`, body)
