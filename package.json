@@ -1,7 +1,7 @@
 {
   "name": "groove-burner",
   "version": "0.1.0",
-  "main": "./Server/server.js",
+  "main": "Server/server.js",
   "proxy": "http://localhost:4839",
   "private": true,
   "dependencies": {
