@@ -2,7 +2,7 @@
   "name": "groove-burner",
   "version": "0.1.0",
   "main": "Server/server.js",
-  "proxy": "http://localhost:4839",
+  "proxy": "http://localhost:54783",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",

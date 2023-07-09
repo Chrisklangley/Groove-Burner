@@ -43,8 +43,7 @@ function Register() {
       email,
       password,
     };
-    const URL =
-      "https://enchanting-horse-4bf3e1.netlify.app/.netlify/functions/api";
+    const URL = "http://localhost:54783";
     // https://enchanting-horse-4bf3e1.netlify.app/.netlify/functions/api/register
 
     axios
